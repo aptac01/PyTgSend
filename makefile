@@ -4,6 +4,8 @@ default:
 	    * make env   - create virtual env for python \n\
 	    * make all   - performs clean -> env"
 
+.PHONY: all env clean
+
 PYTHON_EXEC = python3
 VENV_PATH = env
 VENV_PYTHON_EXEC = ./$(VENV_PATH)/bin/python
