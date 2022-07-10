@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='PyTgSend',
-    version='1.0',
+    version='1.1',
     license='MIT',
     description='Lightweight function to send telegram messages',
     url='https://github.com/aptac01/PyTgSend.git',

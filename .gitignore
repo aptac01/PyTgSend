@@ -17,3 +17,5 @@ wiki/**
 log/**
 data/**
 tmp/**
+dist/**
+PyTgSend.egg-info/**
