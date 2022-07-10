@@ -3,11 +3,13 @@ from setuptools import setup
 setup(
     name='PyTgSend',
     version='1.0',
+    license='MIT',
     description='Lightweight function to send telegram messages',
-    url='git@github.com:aptac01/PyTgSend.git',
+    url='https://github.com/aptac01/PyTgSend.git',
     author='Alex Tamilin',
     author_email='popovalex402@gmail.com',
     packages=['PyTgSend'],
+    keywords='telegram tg',
     install_requires=[
         'requests',
     ],
