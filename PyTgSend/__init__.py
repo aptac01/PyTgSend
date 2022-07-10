@@ -3,6 +3,7 @@ import requests
 
 def tg_send_message(msgs=(), *, token=None, chat_id=None, conf=None, response='bool'):
     """
+    Sends message(s) as bot to specified chat
 
     :param str|[]str msgs: one or more messages to send
     :param str token: bot token, from @BotFather or bot owner
@@ -59,6 +60,10 @@ def tg_send_message(msgs=(), *, token=None, chat_id=None, conf=None, response='b
 
 
 def do_tests():
+    """
+    used for testing before release
+    :return:
+    """
 
     token = input("enter token: ")
     chat_id = input("enter chat_id: ")
